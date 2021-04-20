@@ -1,0 +1,47 @@
+.login-form{
+    padding: 60px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.form-input-wrapper{
+    margin-bottom: 18px;
+    width: 380px;
+
+    .form-input {
+        color: rgb(230, 230, 230);
+        padding: 7px;
+        width: 100%;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #fff;
+
+        &:focus {
+            outline: none;
+            border-color: rgb(80, 61, 255);
+        }
+
+        &.invalid{
+            border-color: rgb(166, 0, 0);
+        }
+    }   
+}
+
+.form-button{
+    background: none;
+    padding: 12px 24px;
+    background-repeat: 12px;
+    border: 1px solid rgb(80, 61, 255);
+    border-radius: 12px;
+    color: rgb(230, 230, 230);
+    
+    &:hover{
+        background: #fff;
+        color: rgb(192, 34, 34);
+        cursor: pointer;
+    }
+}
